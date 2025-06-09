@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Last_Agent2Customer__c</fullName>
+    <label>Last Agent to Customer</label>
+    <summarizedField>Case_Interaction__c.Interaction_Datetime__c</summarizedField>
+    <summaryFilterItems>
+        <field>Case_Interaction__c.Trackable__c</field>
+        <operation>equals</operation>
+        <value>True</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Case_Interaction__c.Sender__c</field>
+        <operation>equals</operation>
+        <value>AGENT</value>
+    </summaryFilterItems>
+    <summaryFilterItems>
+        <field>Case_Interaction__c.Recipient__c</field>
+        <operation>equals</operation>
+        <value>CUSTOMER</value>
+    </summaryFilterItems>
+    <summaryForeignKey>Case_Interaction__c.Case__c</summaryForeignKey>
+    <summaryOperation>max</summaryOperation>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Summary</type>
+</CustomField>

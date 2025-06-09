@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>AGENT</fullName>
+        <default>false</default>
+        <label>AGENT</label>
+    </customValue>
+    <customValue>
+        <fullName>INTERNAL</fullName>
+        <default>false</default>
+        <label>INTERNAL</label>
+    </customValue>
+    <customValue>
+        <fullName>CUSTOMER</fullName>
+        <default>false</default>
+        <label>CUSTOMER</label>
+    </customValue>
+    <customValue>
+        <fullName>PARTNER</fullName>
+        <default>false</default>
+        <label>PARTNER</label>
+    </customValue>
+    <masterLabel>Interaction Parties</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>
