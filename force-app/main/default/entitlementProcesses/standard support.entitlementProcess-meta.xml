@@ -29,4 +29,9 @@
         <minutesToComplete>729</minutesToComplete>
         <useCriteriaStartTime>true</useCriteriaStartTime>
     </milestones>
+    <milestones>
+        <milestoneName>Close Case</milestoneName>
+        <minutesToComplete>1920</minutesToComplete>
+        <useCriteriaStartTime>true</useCriteriaStartTime>
+    </milestones>
 </EntitlementProcess>
